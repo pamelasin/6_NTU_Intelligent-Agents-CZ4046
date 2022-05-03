@@ -1,23 +1,25 @@
-# NTU - Neural Networks and Deep Learning (CZ4042)
+# NTU - Intelligent Agents (CZ4046) Assignment 1
 
 ## **Description**
 
-- Image classification using ten categories from Materials in Context Database (MINC), 2,500 images per category.
-- CNN using MobileNetV2 and InceptionV3 pre-trained featurisers. 
-- Hyperparameters tuned on final layers, including number of neurons, dropout and optimiser. 
-- TensorBoard to visualise experiment results.
-- Tested fine-tuning by unfreezing final layers of featuriser. 
-- Best accuracy of 0.8594 obtained using 96 neurons in hidden layer, 96 neurons in hidden layer with 0.10 dropout probability, SGD optimiser, unfreeze final layers in featuriser. 
-- Files include Python code, PDF report, presentation slides. 
+- Obtain the optimal policy through value iteration and policy iteration. 
+- World where there are no terminal states, reward at different squares are +1, -1, -0.04, discount factor of 0.99
+- Agent has:
+    1. 0.8 probability of going in the intended direction
+    2. 0.1 probability of going in a direction 90 degrees clockwise of the intended direction
+    3. 0.1 probability of going in a direction 90 degree anticlockwise of the intended direction.
+- Files include Python code, PDF report
 
 
 ## **PDF report excerpts**
-[![Capture.png](https://i.postimg.cc/4NKqw1qn/Capture.png)](https://postimg.cc/ppHsLK2t)
+[![Capture.png](https://i.postimg.cc/6q9kc7gc/Capture.png)](https://postimg.cc/8J0XPC1f)
 
-[![Capture.png](https://i.postimg.cc/XNPDZCqW/Capture.png)](https://postimg.cc/hh906hVZ)
+[![Capture.png](https://i.postimg.cc/2SPgJ9gV/Capture.png)](https://postimg.cc/217HLGkD)
 
-[![Capture.png](https://i.postimg.cc/nzPTQyH2/Capture.png)](https://postimg.cc/TLnnzH55)
+[![Capture.png](https://i.postimg.cc/nhQPvYMZ/Capture.png)](https://postimg.cc/Xr4LW5wD)
 
-[![Capture.png](https://i.postimg.cc/W3kSg9hP/Capture.png)](https://postimg.cc/phPDtJf0)
+[![Capture.png](https://i.postimg.cc/76L1NwX7/Capture.png)](https://postimg.cc/R3jnSrkV)
 
-[![Capture.png](https://i.postimg.cc/ZKcH8vK0/Capture.png)](https://postimg.cc/ZCW6ZRNh)
+[![Capture.png](https://i.postimg.cc/pXjfC0Q0/Capture.png)](https://postimg.cc/SJyYNfv8)
+
+[![Capture.png](https://i.postimg.cc/mDq9NMPf/Capture.png)](https://postimg.cc/phfyPmQq)
