@@ -2,7 +2,7 @@
 
 ## **Description**
 
-- Implements an agent strategy to pit against two other agents in a game where:
+- Implements an agent strategy to pit against two other agents in a game of repeated Three Prisoners Dilemma
 - Agent implementation:
     1. Agent cooperates in first round
     2. Agent alternates between considering long-term history and recent actions to formulate next action.  
